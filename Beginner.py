@@ -7,6 +7,6 @@ def palindrome():
             isPalindrome = True
             print("Palindrome!!!!!!!!!!!!!!!!!!")
         else:
-            print("Not Palindrome!!!!!!!!!!!!!!")
+            print("Not Palindrome!!!!!!!")
 
 palindrome()
