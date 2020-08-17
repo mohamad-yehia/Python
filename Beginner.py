@@ -34,6 +34,17 @@ def isNombreParfait():
         print("Le nombre saisi n'est pas parfait!!!!")
 
 
+def isPerfectNum(num):
+    pow, num_temp, sum = len(str(num)), num, 0
+
+    while num_temp != 0:
+        sum = sum + (num_temp % 10) ** pow
+        num_temp = num_temp / 10
+
+        print("Perfect num") if sum == num else False
+
+
+isPerfectNum(2)
 ##isNombreParfait()
-isPerfectNumber()
+##isPerfectNumber()
 ##palindrom()
